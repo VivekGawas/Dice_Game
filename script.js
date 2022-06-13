@@ -1,3 +1,15 @@
+var button = document.querySelector(".btn");
+
+
+button.addEventListener("click", start);
+
+function start(){
+
+    //for vutton click animation
+    button.classList.add("clicked");
+    setTimeout(function(){
+        button.classList.remove("clicked");
+    }, 100);
 
 //player 1
 var randomNumber1;
@@ -26,3 +38,4 @@ else{
     document.querySelector("h1").innerHTML="Draw 😑";
 }
 
+}
