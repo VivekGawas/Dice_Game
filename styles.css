@@ -25,7 +25,7 @@ h1 {
 p {
   font-size: 2rem;
   color: #b7cc4e;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Baloo Thambi 2', cursive;
 }
 
 img {
@@ -36,6 +36,25 @@ footer {
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Open Sans', sans-serif;
+}
 
+.btn {
+  padding: 22px;
+  margin: 31px 0px 0px;
+  /* border: 2px solid black; */
+  border-radius: 18px;
+  background-color: #b1cb4e;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 2px 2px 3px black;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+.clicked{
+  background-color: #b2cb4e9e;
+  box-shadow: 0px 0px;
 }
